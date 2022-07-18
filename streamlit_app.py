@@ -97,6 +97,9 @@ if __name__ == "__main__":
         st.header("Subjective")
         st.write("This machine learning created as an alteration series . Using Linear Regression and Data augmented .")
         st.write("It include about how we imagined our self on the other side based on positivity effect .")
+        st.header("Flowchart")
+        components.html("""<img src="https://raw.githubusercontent.com/RFebrians/RFebrians/main/assets/Kaggle/Alteration-Prevention.png" alt="flowchart">""",height=900,width=600)
+
 
         st.subheader('Technologies stack')
         
@@ -109,37 +112,37 @@ if __name__ == "__main__":
             NLTK
             Natural Language Processing
             """)
-            components.html("""<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="c71eb334-9ced-4463-955d-dded93f6f364" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>""")
+            components.html("""<img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com">""")
         with col2:
             st.text("""
             Matplotlib 
             for Plotting
             """)
-            components.html("""<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="838f5fcb-b703-46e6-aecc-dec1942a2b58" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>""")
+            components.html("""<img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com">""")
         with col3:
             st.text("""
             NumPy
             
             """)
-            components.html("""<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="c389a1bc-92fa-4bf6-ae9f-3b49127087a8" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>""")
+            components.html("""<img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com">""")
         with col4:
             st.text("""
             SciKit-Learn
             
             """)
-            components.html("""<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="2ef7d03d-4263-45c9-9a94-9f4b16f656fc" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>""")
+            components.html("""<img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com">""")
         with col5:
             st.text("""
             Pandas
             
             """)
-            components.html("""<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="47e710e8-35b4-4bda-b2b7-dde82ac82570" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>""")
+            components.html("""<img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com">""")
         with col6:
             st.text("""
             Streamlit
             
             """)
-            components.html("""<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="9c81971e-e2b0-4c16-beef-7d35609723f5" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>""")
+            components.html("""<img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com">""")
     
     
     if nav == "Contact":
