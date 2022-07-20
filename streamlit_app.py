@@ -84,7 +84,7 @@ if __name__ == "__main__":
         st.header("Contribute to our dataset")
         text1 = st.text_area("Enter the Sentence")
         label1 = st.selectbox("Select the class",["suicide","non-suicide"],index = 0)
-    if st.button("submit"):
+        if st.button("submit"):
              #check if we are not reading the dataset
              add_lst = {"Unnamed: 0": [numm+1], "text":[text1],"class":[label1]}
              add_lst = pd.DataFrame(add_lst)
